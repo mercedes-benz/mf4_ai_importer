@@ -119,7 +119,7 @@ dependencies = [
   "tinycss2==1.4.0",
   "tomli==2.1.0",
   "tomlkit==0.13.2",
-  "tornado==6.4.1",
+  "tornado==6.4.2",
   "traitlets==5.14.3",
   "trove-classifiers==2024.10.21.16",
   "typing_extensions==4.12.2",

@@ -1,0 +1,2 @@
+[console_scripts]
+main = mf4_ai_importer.main:main

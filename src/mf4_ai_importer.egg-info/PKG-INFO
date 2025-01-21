@@ -1,0 +1,245 @@
+Metadata-Version: 2.2
+Name: mf4-ai-importer
+Version: 0.1.0
+Summary: A Python package designed to automate the data extractor for large in-car communication datasets of MF4 format within the automotive industry.
+Author-email: Julian Müller <julian.mueller@mercedes-benz.com>
+Maintainer-email: Julian Müller <julian.mueller@mercedes-benz.com>
+Keywords: machine learning,data extractor,automotive
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Requires-Python: >=3.10.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: appnope==0.1.4
+Requires-Dist: asammdf==8.0.1
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: attrs==24.2.0
+Requires-Dist: backcall==0.2.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: black==24.10.0
+Requires-Dist: bleach==6.2.0
+Requires-Dist: build==1.2.2.post1
+Requires-Dist: CacheControl==0.14.1
+Requires-Dist: canmatrix==1.0
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: cffi==1.17.1
+Requires-Dist: charset-normalizer==3.4.0
+Requires-Dist: cleo==2.1.0
+Requires-Dist: click==8.1.7
+Requires-Dist: contourpy==1.3.0
+Requires-Dist: crashtest==0.4.1
+Requires-Dist: cycler==0.12.1
+Requires-Dist: decorator==5.1.1
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: distlib==0.3.9
+Requires-Dist: docopt==0.6.2
+Requires-Dist: dulwich==0.21.7
+Requires-Dist: executing==2.1.0
+Requires-Dist: fastjsonschema==2.20.0
+Requires-Dist: filelock==3.16.1
+Requires-Dist: flake8==7.1.1
+Requires-Dist: fonttools==4.54.1
+Requires-Dist: future==1.0.0
+Requires-Dist: idna==3.10
+Requires-Dist: importlib_metadata==8.5.0
+Requires-Dist: installer==0.7.0
+Requires-Dist: ipython==8.12.3
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jedi==0.19.2
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: jsonschema==4.23.0
+Requires-Dist: jsonschema-specifications==2024.10.1
+Requires-Dist: jupyter_client==8.6.3
+Requires-Dist: jupyter_core==5.7.2
+Requires-Dist: jupyterlab_pygments==0.3.0
+Requires-Dist: keyring==24.3.1
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: lxml==5.3.0
+Requires-Dist: lz4==4.3.3
+Requires-Dist: MarkupSafe==3.0.2
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: matplotlib-inline==0.1.7
+Requires-Dist: mccabe==0.7.0
+Requires-Dist: mistune==3.0.2
+Requires-Dist: more-itertools==10.5.0
+Requires-Dist: msgpack==1.1.0
+Requires-Dist: mypy-extensions==1.0.0
+Requires-Dist: nbclient==0.10.0
+Requires-Dist: nbconvert==7.16.4
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: numexpr==2.10.1
+Requires-Dist: numpy==1.26.4
+Requires-Dist: packaging==24.2
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pandocfilters==1.5.1
+Requires-Dist: parso==0.8.4
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: pillow==11.0.0
+Requires-Dist: pipreqs==0.5.0
+Requires-Dist: pkginfo==1.12.0
+Requires-Dist: platformdirs==4.3.6
+Requires-Dist: poetry-core==1.9.1
+Requires-Dist: poetry-plugin-export==1.8.0
+Requires-Dist: prompt_toolkit==3.0.48
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure_eval==0.2.3
+Requires-Dist: pycodestyle==2.12.1
+Requires-Dist: pycparser==2.22
+Requires-Dist: pyflakes==3.2.0
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: pyparsing==3.2.0
+Requires-Dist: pyproject_hooks==1.2.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.2
+Requires-Dist: pyzmq==26.2.0
+Requires-Dist: RapidFuzz==3.10.1
+Requires-Dist: referencing==0.35.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rpds-py==0.21.0
+Requires-Dist: shellingham==1.5.4
+Requires-Dist: six==1.16.0
+Requires-Dist: soupsieve==2.6
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: tinycss2==1.4.0
+Requires-Dist: tomli==2.1.0
+Requires-Dist: tomlkit==0.13.2
+Requires-Dist: tornado==6.4.1
+Requires-Dist: traitlets==5.14.3
+Requires-Dist: trove-classifiers==2024.10.21.16
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: tzdata==2024.2
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: virtualenv==20.28.0
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: webencodings==0.5.1
+Requires-Dist: xattr==1.1.0
+Requires-Dist: yarg==0.1.9
+Requires-Dist: zipp==3.21.0
+
+<!-- SPDX-FileCopyrightText: Copyright (c) 2024 MBition GmbH. -->
+<!-- SPDX-License-Identifier: MIT -->
+
+<!-- TABLE OF CONTENTS -->
+<h2>Table of Contents</h2>
+<ol>
+  <li><a href="#about-the-project">About The Project</a></li>
+  <li><a href="#structure-of-the-repository">Structure of the Repository</a></li>
+  <li><a href="#package-installation">Package Installation</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ol>
+
+## Provider Information
+
+<!-- Disclaimler -->
+Source code has been tested solely for our own use cases, which might differ from yours.
+This project is actively maintained and contributing is endorsed.
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+The `mf4_ai_importer` Python package has been developed with the specific purpose of importing  `.MF4` files and transforming them into feature and target dataframes, with the aim of supporting AI applications within the automotive industry. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Structure of the repository
+```plaintext
+├── MF4_AI_IMPORTER/
+├── src/
+│   └── mf4_ai_importer/
+│       ├── data.py
+│       ├── main.py
+```
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Package installation
+1. **Clone the source code:**
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. **Install Python dependencies in your Python environment:**
+   ```bash
+   python3 -m pip install -e .
+   ```
+
+3. **Build a package and install it on the system:**
+   ```bash
+   python3 -m pip install --upgrade build
+   python3 -m build
+   pip install dist/*.tar.gz
+   ```
+
+4. **Verify if the installation was successful:**
+   ```bash
+   pip list | grep mf4-ai-importer
+   ```
+
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+This program processes MF4 data files, applying specific features, targets, and blacklists based on provided command-line arguments. Below are the details of the command-line options you can use to run this program:
+
+### Command-line Arguments
+
+- `--filedir`, `-f` **(Required)**
+  - Description: Path to the directory containing feature files (`feature.mf4`) and target files (`target.mf4`).
+  - Usage: `--filedir <path_to_all_files_directory>`
+
+- `--targetdir`, `-td` **(Optional)**
+  - Description: Path to the directory containing all target files `target.mf4`, including a `targetname.txt` file that lists all the target names. See an example in `target_files`.
+  - Usage: `--targetdir <path_to_target_directory>`
+
+- `--targetname`, `-tn` **(Required)**
+  - Description: Name of the target (If targetdir exists, the targetname will be taken from the `targetname.txt`,in this case, it is A15; otherwise, it can be extracted from features.mf4 using the specified target name.).
+  - Usage: `--targetname <target_name>`
+
+- `--bl`, `-b` **(Required)**
+  - Description: Path to the file containing signals to be blacklisted.
+  - Usage: `--bl <path_to_blacklist_file>`
+
+- `--raster`, `-r` **(Required)**
+  - Description: Sampling value for data processing, specified as an integer.
+  - Usage: `--raster <sampling_value>`
+
+
+### Function Description
+
+The `main()` function processes MF4 data files to extract and prepare target and feature datasets, suitable for further analysis or machine learning applications. Here are the details of the outputs:
+
+- **`df_target`**: This DataFrame contains the target data extracted based on the specified `target` parameter. It is crucial for supervised learning tasks where the target variable is predicted.
+
+- **`df_features`**: This DataFrame holds the features extracted from the MF4 files that are relevant for modeling purposes. 
+
+### Example
+
+Here's an example of how you might use these arguments:
+
+- **Example 1:**
+
+   ```bash
+   main --filedir ./sample_files --targetdir ./target_files --targetname A15 --bl ./sample_files/blacklist.csv --raster 5 
+   
+   ```
+
+- **Example 2:**
+
+   ```bash
+   main --filedir ./sample_files  --targetname target1 --bl ./sample_files/blacklist.csv --raster 5 
+   ```
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contributing
+The instructions on how to contribute can be found in the file [CONTRIBUTING.md](./CONTRIBUTING.md) in this repository.
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+The code is published under the MIT license. Further information on that can be found in the [LICENSE.md](./LICENSE.md) file in this repository.
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>

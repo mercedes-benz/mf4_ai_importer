@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/mf4_ai_importer/__init__.py
+src/mf4_ai_importer/data.py
+src/mf4_ai_importer/main.py
+src/mf4_ai_importer.egg-info/PKG-INFO
+src/mf4_ai_importer.egg-info/SOURCES.txt
+src/mf4_ai_importer.egg-info/dependency_links.txt
+src/mf4_ai_importer.egg-info/entry_points.txt
+src/mf4_ai_importer.egg-info/requires.txt
+src/mf4_ai_importer.egg-info/top_level.txt

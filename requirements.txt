@@ -100,7 +100,7 @@ trove-classifiers==2024.10.21.16
 typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.7.0
-virtualenv==20.36.1
+virtualenv==21.14.9
 wcwidth==0.2.13
 webencodings==0.5.1
 xattr==1.1.0

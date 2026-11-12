@@ -3,31 +3,56 @@
 
 _Contributions are highly welcome!_
 
-This document explains how to contribute to this project.
+This document explains how to contribute to the mf4_ai_importer project.
 By contributing you will agree that your contribution will be put under the same license as this repository.
 
 ## Table of Contents
-- [Contributor License Agreement (CLA)](#contributor-license-agreement-cla)
 - [Communication](#communication)
 - [Contributions](#contributions)
-
-## Contributor License Agreement (CLA)#
-
-Before you can contribute, you will need to sign our cla [Contributor License Agreement](https://github.com/mercedes-benz/foss/blob/master/cla/2024-11-04_MB_FOSS_CLA_MBition.pdf) and send the signed CLA to <cla-mbition@mercedes-benz.com>
-
+- [Developer Certificate of Origin](#developer-certificate-of-origin)
 
 ## Communication
 For communication please respect our [FOSS Code of Conduct](https://github.com/mercedes-benz/foss/blob/master/CODE_OF_CONDUCT.md).
 
-IMPORTANT: For contributions or issue reports, please start by creating an [issue on Github](link to issue).
+The following communication channels exist for this project:
 
-Transparent and open communication is important to us. Thus, all project-related communication should happen here and in English. Issue-related communication should happen within the concerned issue.
+- Github for reporting and claiming issues: https://github.com/mercedes-benz/mf4_ai_importer/issues
+
+Transparent and open communication is important to us. Thus, all project-related communication should happen only through these channels and in English. Issue-related communication should happen within the concerned issue.
+
+IMPORTANT: For contributions or issue reports, please start by creating an [issue on Github](https://github.com/mercedes-benz/mf4_ai_importer/issues).
 
 ## Contributions
-When submitting code, please follow the existing conventions and style in order to keep the code as readable as possible.
-
-If you would like to contribute code you can do so through GitHub. We are following [Git Strategy](docs/GitStrategy.md) to maintain the branching standards on Github. We are requested to follow the same.
+If you would like to contribute code you can do so through Mercedes-Benz using the standard GitHub flow. We are following [Git Strategy](docs/GitStrategy.md) to maintain the branching standards on Github. We are requested to follow the same.
 
 When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.
 
-If you are new to contributing in Github, [First Contributions](https://github.com/firstcontributions/first-contributions) might be a good starting point.
+If you are new to contributing on Github, [First Contributions](https://github.com/firstcontributions/first-contributions) might be a good starting point.
+
+## Developer Certificate of Origin
+Contributors must agree to the "Developer Certificate of Origin Version 1.1" (DCO) and comply with the sign-off procedure for contributing to mf4_ai_importer. All contributions submitted to the mf4_ai_importer repository have to carry a signed-off-by statement in the commit message using the following format:
+
+```
+Signed-off-by: Firstname Lastname <email.address>
+```
+
+where the specified email address must be associated with your github account. If a commit does not carry such a signed-off-by statement, the pull request cannot be merged into the official mf4_ai_importer repository because by adding signed-off-by statements to the commit messages, you convey that you have the necessary rights to contribute the respective changes.
+
+Contributions are validated through the DCO. The former Contributor License Agreement (CLA) process and the CLA Bot are retired and no longer apply.
+
+### Developer Certificate of Origin (Text)
+```
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
+
+(c) The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it.
+
+(d) I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
+```
+
+The text of the DCO is also available at https://developercertificate.org.
